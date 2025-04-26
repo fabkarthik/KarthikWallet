@@ -1,0 +1,565 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url(./fonts/calibri-regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FBF8CC;
+}
+ul {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    font-family: 'Calibri';
+    font-size: 19px;
+    color: black;
+}
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px;
+    color: black;
+}
+.logo-img {
+    width: 127px;
+    height: 96px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links li {
+    margin: 0 30px;
+}
+
+
+
+/**********new css***********/
+
+.main-container {
+    display: flex;
+    width: 1206px;
+    height: 712px;
+    margin: 0 auto;
+}
+
+/* left side icons */
+.left-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.left-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    left: 4%;
+    position: absolute;
+}
+
+/* icons gap */
+.left-icons .right-content {
+    gap: 32px;
+}
+
+/* vertical line for icons */
+#vertical-top-line {
+    width: 2px;
+    height: 77px;
+    background-color: black;
+}
+#vertical-bottom-line {
+    width: 2px;
+    height: 77px;
+    background-color: black;
+}
+
+/* Right side hero content*/
+.right-content {
+    width: 92%;
+    padding: 20px;
+    position: relative;
+}
+
+.hero .hero-headline {
+    font-style: 'Calibri';
+    font-size: 1.5em;
+    top: 158px;
+    position: absolute;
+
+
+}
+.hero h1 {
+    font-family: 'Abril Fatface';
+    width: 628px;
+    position: absolute;
+    top: 187px;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 0.12em;
+    color: #000000;
+}
+
+/* ui/ux Rectangle bg */
+.uiux-rect {  
+    position: absolute;
+    width: 394px;
+    height: 37px;
+    background: linear-gradient(90deg, #FBF8CC 0%, #F5EE84 42.4%);
+    border-radius: 50px 0px 0px 50px;
+    left: 238px;
+    top: 235px;
+}
+
+/* UI/UX Designer */
+.uiux-name {
+    position: absolute;
+    left: 198px;
+    top: 8px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.3em;
+    color: #000000;
+}
+
+
+.hero .hero-desc {
+    position: absolute;
+    top: 306px;
+    font-family: 'Calibri';
+    width: 654px;
+    font-size: 17px;
+    color: #28282B;
+    line-height: auto;
+}
+
+.contact-btn {
+    width: 133px;
+    height: 33px;
+    padding: 10px 30px;
+    font-size: 19px;
+    background-color: #FBF8CC;
+    border: 2px solid #868139;
+    border-radius: 22px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'calibri';
+    position: absolute;
+    top: 421px;
+}
+.contact-btn:hover {
+    background-color: #F5EE84;
+}
+
+.hero-bg-stars-img {
+    position: relative;
+    width: 391px;
+    height: 711px;
+    left: 200px;
+    top: 0px;
+    opacity: 0.95;
+}
+
+.hero-bg-img-tag {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 552px;
+    height: 604px;
+    position: relative;
+    left: 68px;
+
+}
+
+/************** about sec *****************/
+.about-sec {
+    display: flex;
+    margin: 100px auto;
+    width: 1260px;
+    height: 533px;
+    justify-content: center;
+    gap: 78px;
+}
+
+.about-sec-img img {
+    width: 539px;
+    height: 533px;
+    left: 0px;
+    top: 0px;
+}
+.about-sec .about-sec-content .about-title {
+    width: 170px;
+    height: 81px;
+
+    font-family: 'Calibri';
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 81px;
+    /* identical to box height */
+    color: rgba(134, 129, 57, 0.47);
+
+
+}
+.about-sec .about-sec-content .about-sec-text {
+    margin-top: 80px;
+}
+
+.resume-btn {
+    width: 133px;
+    height: 33px;
+    padding: 10px 30px;
+    font-size: 19px;
+    background-color: #FBF8CC;
+    border: 2px solid #868139;
+    border-radius: 22px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'calibri';
+    position: absolute;
+}
+.resume-btn:hover {
+    background-color: #F5EE84;
+}
+
+.journey-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px;
+    padding: 100px;
+}
+.journey-map-img {
+    width: 699px;
+    height: 753px;
+}
+
+/************ skills sec ****************/
+.skills-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.skills-sec h3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #FBF8CC;
+    font-weight: bold;
+    background-color: #868139;
+    height: 50px;
+}
+.skills-sec h5 {
+    color: #868139;
+    font-weight: bold;    
+}
+.skills-sec .skills-names {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.skills-sec li {
+    color: #2B282A;
+}
+
+
+.skills-sec .skills-names .sc-1 {
+    width: 300px;
+    height: auto;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #FBF8CC;
+    border: solid 2px #868139;   
+}
+
+
+/************* services section **************/
+
+.service-sec {
+    margin-top: 130px;
+}
+.service-bg {
+    background-color: #868139;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.service-sec h4 {
+    color: #FBF8CC;
+    font-weight: bold;
+}
+/***** services cards img size *****/
+.service-sec .service-cards {
+    gap: 40px;
+    display: flex;
+}
+
+.service-sec .service-cards img {
+    width: 90px;
+    height: 90px;
+}
+.service-sec .service-cards {
+    margin-top: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #868139;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+/***** services cards decoration *****/
+.service-sec .srvc-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #FBF8CC;
+    width: 200px;
+    height: 193px;
+    border-radius: 20px;
+    
+}
+.service-sec .srvc-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #FBF8CC;
+    width: 200px;
+    height: 193px;
+    border-radius: 20px;
+}
+.service-sec .srvc-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #FBF8CC;
+    width: 200px;
+    height: 193px;
+    border-radius: 20px;
+
+}
+.service-sec .srvc-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #FBF8CC;
+    width: 200px;
+    height: 193px;
+    border-radius: 20px;
+
+}
+.service-sec .srvc-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #FBF8CC;
+    width: 200px;
+    height: 193px;
+    border-radius: 20px;
+
+}
+
+
+
+/************* tagline **************/
+.tag-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 150px;
+    text-align: center;
+}
+.tagline {
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;flex-direction: column;
+    color: #2B282A;
+    width: 1103px;
+    height: 198px;
+}
+.tagline h4 {
+    font-weight: bold;
+    color: #868139;
+    width: 601px;
+}
+.tagline .tagline-para {
+    font-size: 14px;
+    color: #868139;
+    font-weight: 500;
+}
+
+
+
+/************* tagline **************/
+.contact-sec .contact-card {
+    background-color: #F5EE84;
+    padding: 50px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-sec h4 {
+    margin-left: 2%;
+    margin-bottom: -20px;
+}
+.contact-sec .contact-card h3 {
+    font-weight: bold;
+}
+
+.contact-sec .contact-icons .bi {
+    font-size: 30px;
+    color: #2B282A;
+    display: flex;
+    
+}
+.contact-icons .bi:hover{
+    color: #0000ff;
+}
+
+.contact-sec .contact-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgba(134, 129, 57, 0.49);
+    border-radius: 50px;
+    background-color: #FBF8CC;
+    padding: 25px;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: auto;
+    
+}
+
+.contact-icons i {
+    margin: auto;
+}
+
+
+.footer-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #868139;
+    height: 70px;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer-img {
+    height: 54px;
+    
+}
+.footer-sec p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 9px;
+}
+
+
+
+
+
+
+/* Mobile device */
+@media only screen and (max-width:850px) {
+
+    .navbar {
+        padding: 0;
+    }
+    .logo-img {
+        position: absolute;
+        width: 99px;
+        height: 68px;
+        top: 20px;
+        left: 20px;
+    }
+    .nav-links {
+        width: 100%;
+        margin-top: 85px;
+        padding: 0px 50px;
+        justify-content: center;
+    }
+    .nav-links li {
+        margin: 5px auto;
+    }
+    ul li a {
+        font-size: 18px;
+    }
+
+    .hero {
+        background-image: url(assets/mbl-hero-bg.png);
+        background-size: 430.88px 715px;
+        padding-top: 80px;
+    
+    }
+    .hero-pg-icon {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        margin-left: 28px;
+        margin-bottom: 80px;
+    }
+
+    #vertical-top-line {
+        width: 1.5px;
+        height: 77px;
+        background-color: black;
+        margin-top: 100px;
+    }
+
+    .linkedin-icon {
+        width: 31px;
+        height: 31px;
+    
+    }
+    #vertical-bottom-line {
+        width: 1.5px;
+        height: 77px;
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    
+}
