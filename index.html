@@ -37,17 +37,21 @@
         </ul>
     </nav>
 
+    <div class="hero-bg-1">“Why did the user cross the road? Because the button was clearly labeled and easy to find.” <br>~A designer</div>
+
     <div class="main-container" id="home-sec">
         <div class="left-icons">
             <div id="vertical-top-line"></div>
-            <img src="css/assets/linkedin-icon.png">
-            <img src="css/assets/github-icon.png">
-            <img src="css/assets/gmail-icon.png">
-            <img src="css/assets/behance-icon.png">
-            <img src="css/assets/dribble-icon.png">
-            <img src="css/assets/x-icon.png">
+            <a href="https://www.linkedin.com/in/Karthik-barrenkala" target="_blank"><img src="css/assets/linkedin-icon.png"></a>
+            <a href="https://github.com/fabkarthik" target="_blank"><img src="css/assets/github-icon.png"></a>
+            <a href="mailto:venkatak547@gmail.com" target="_blank"><img src="css/assets/gmail-icon.png"></a>
+            <a href="https://www.behance.net/karthikbarrenkala" target="_blank"><img src="css/assets/behance-icon.png"></a>
+            <a href="" target="_blank"><img src="css/assets/dribble-icon.png"></a>
+            <a href="https://x.com/Fab_Karthik" target="_blank"><img src="css/assets/x-icon.png"></a>
             <div id="vertical-bottom-line"></div>
         </div>
+
+        <div class="hero-bg-2">Design is not just decoration; It is the promise of a good experience.</div>
 
         <div class="right-content">
             <div class="hero">
@@ -74,16 +78,16 @@
 
     <section class="about-sec" id="about-sec">
         <div class="about-sec-img">
-            <img src="css/assets/abt-img.png">
+            <img src="css/assets/pic1.jpg">
         </div>
         <div class="about-sec-content">
             <p class="about-title">About.</p>
 
-            <p>A Professional, highly skilled, and experienced web design expert with a passion for delivering exceptional results, I pride myself on providing a comprehensive and innovative approach to every project. My extensive knowledge and expertise in the field allow me to create custom solutions that perfectly meet the unique needs and objectives of each client. With a focus on delivering top-quality results and exceptional customer service, you can trust me to deliver outstanding results every time.</p>
+            <p class="about-desc">A Professional, highly skilled, and experienced web design expert with a passion for delivering exceptional results, I pride myself on providing a comprehensive and innovative approach to every project. My extensive knowledge and expertise in the field allow me to create custom solutions that perfectly meet the unique needs and objectives of each client. With a focus on delivering top-quality results and exceptional customer service, you can trust me to deliver outstanding results every time.</p>
 
             <div class="about-sec-text">
                 <p>Let's Build Something Together.</p>
-                <button class="resume-btn">Resume</button>
+                <button class="resume-btn" onclick="openPDF()">View Resume</button>
             </div>
         </div>
     </section>
@@ -178,16 +182,16 @@
         <div class="contact-card">
             <h3>Catch me here:</h3>
             <div class="contact-icons">
-                <i class="bi bi-envelope-at"></i>
-                <i class="bi bi-linkedin"></i>
-                <i class="bi bi-github"></i>
-                <i class="bi bi-dribbble"></i>
-                <i class="bi bi-behance"></i>
-                <i class="bi bi-twitter-x"></i>
-                <i class="bi bi-pinterest"></i>
-                <i class="bi bi-instagram"></i>
+                <a href="mailto:venkatak547@gmail.com"><i class="bi bi-envelope-at"></i></a>
+                <a href="https://www.linkedin.com/in/Karthik-barrenkala"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/fabkarthik"><i class="bi bi-github"></i></a>
+                <a href=""><i class="bi bi-dribbble"></i></a>
+                <a href="https://www.behance.net/karthikbarrenkala"><i class="bi bi-behance"></i></a>
+                <a href="https://x.com/Fab_Karthik"><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-pinterest"></i></a>
+                <a href="https://www.instagram.com/imkrthik"><i class="bi bi-instagram"></i></a>
             </div>
-            <p class="contact-para">Send your feedback for Venkata Karthik Barrenkala’s project.</p>
+            <p class="contact-para">Send your feedback.</p>
         </div>
     </section>
 
@@ -197,6 +201,11 @@
     </footer>
 
 
+<script>
+    function openPDF() {
+        window.open('./css/assets/karthik-2025-new_compressed.pdf', '_blank');
+    }
+</script>
 
 </body>
 </html>
